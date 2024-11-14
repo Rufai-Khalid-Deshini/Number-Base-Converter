@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Numeration System</title>
+</head>
+<body>
+    <h1>Numeration System</h1>
+
+    <div class="container">
+        <h2>Convert to base 10</h2>
+        <div class="details">
+            <input type="number" id="number" placeholder="Enter a number in base n...">
+            <select id="base" title="Select which base you want to convert to base 10">
+                <option value="">Pick Base</option>
+                <option value="2">two</option>
+                <option value="3">three</option>
+                <option value="4">four</option>
+                <option value="5">five</option>
+                <option value="6">six</option>
+                <option value="7">seven</option>
+                <option value="8">eight</option>
+                <option value="9">nine</option>
+                <option value="10">ten</option>
+            </select>
+        </div>
+
+        <button id="sbt">Convert X<sub>n</sub> to base 10</button>
+
+        <p id="tenAns" class="answer-box">Ans:</p>
+    </div>
+
+    <div class="container">
+        <h2>Convert from base 10</h2>
+        <div class="details">
+            <input type="number" id="number-from-10" placeholder="Enter a number in base 10...">
+            <select id="base-from-10" title="Select which base you want to convert the base 10 to">
+                <option value="">Pick Base</option>
+                <option value="2">two</option>
+                <option value="3">three</option>
+                <option value="4">four</option>
+                <option value="5">five</option>
+                <option value="6">six</option>
+                <option value="7">seven</option>
+                <option value="8">eight</option>
+                <option value="9">nine</option>
+                <option value="10">ten</option>
+            </select>
+        </div>
+
+        <button id="fbt">Convert X<sub>10</sub> to base n</button>
+
+        <p id="fta" class="answer-box">Ans:</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
